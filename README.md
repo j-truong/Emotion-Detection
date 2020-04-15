@@ -21,11 +21,14 @@ python webcam.py
 ```
 
 ## Results
-# headline
-### headline
-![image](https://github.com/j-truong/Emotion-Detection/blob/master/images/emotion_count.png)
+### Analysis
+After preprocessing the Kaggle dataset, I wanted to inspect the data to investigate to what is contained. Plotting a count plot of each emotion provided insight of potential vulnerabilities within my model. With significant difference in data between 'Disgust' and the other emotions, I would expect the model to find difficulties in classifying the 'Disgust' emotion due to insufficient data. Counterintuitively, we should expect the model to classify 'Happy' with greater accuracy as there exists an abundance of data as well as being a distinctive facial expression. To define what is distinctive, I believe emotions such as 'Happy' and 'Angry' are easy to identify by eye as they have noticable traits such as converging eyebrows for 'Angry' or a curved mouth for 'Happy'. 
 
 ![image](https://github.com/j-truong/Emotion-Detection/blob/master/images/faces.png)
+
+![image](https://github.com/j-truong/Emotion-Detection/blob/master/images/emotion_count.png)
+
+I 
 
 ![image](https://github.com/j-truong/Emotion-Detection/blob/master/images/acc_loss.png)
 
