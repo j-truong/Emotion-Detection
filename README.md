@@ -28,8 +28,12 @@ After preprocessing the Kaggle dataset, I wanted to inspect the data to investig
 
 ![image](https://github.com/j-truong/Emotion-Detection/blob/master/images/emotion_count.png)
 
-I 
+### Moddel
+Using the Google's pretrained MobileNet V2 model (containing 155 layers), I ran 3 models; one was where the only top was unfrozen(TL top), another with 100 layers frozen (TL 100), and finally were the whole model was unfrozen (TL whole). As expected with a decent amount data, the model progressed as more layers unfroze; reaching to a final validation accuracy of 96.9139 %.
 
 ![image](https://github.com/j-truong/Emotion-Detection/blob/master/images/acc_loss.png)
+
+### Conclusion
+Continuinig from the TL whole model, below displays the F1 Score of each emotion with relatively high scores, including 'Disgust'. But to compare this to the practical use of the webcam program, I personally found it difficult to obtain the 'Disgust' and 'Surprise' emotion which may be due to my intuition from earlier; due to lack of data. For future improvement, this problem could perhaps be solved by applying Data Augmentation to the 'Disgust' and 'Surprise' datasets to gain a better classification on these emotions. 
 
 ![image](https://github.com/j-truong/Emotion-Detection/blob/master/images/f1score.png)
