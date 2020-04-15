@@ -4,4 +4,6 @@ Developed a program that utilises the user's webcam to detect users facial expre
 
 [here]: https://github.com/j-truong/Emotion-Detection/blob/master/emotion_detection.ipynb
 
-![Alt Text](https://github.com/j-truong/Emotion-Detection/blob/master/images/webcam_gif.gif)
+<p align='center">
+  ![Alt Text](https://github.com/j-truong/Emotion-Detection/blob/master/images/webcam_gif.gif)
+</p>
