@@ -1,6 +1,6 @@
 ## Emotion Detection
 
-Developed a webcam-based program that utilises CNNs and transfer learning to detect and classify user(s) facial expressions. This was created using with Google's pretrained model, MobileNet V2. The analysis and modelling conducted on Jupyter Notebook can be viewed [here].
+A webcam-based program that utilises CNNs and transfer learning to detect and classify user(s) facial expressions. This was created using with Google's pretrained model, MobileNet V2. The analysis and modelling conducted on Jupyter Notebook can be viewed [here].
 
 https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data
 
